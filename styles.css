@@ -85,9 +85,9 @@ h1, h2, h3, h4 { line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 .4em; }
 .brand:hover { text-decoration: none; }
 .brand-mark {
   display: grid; place-items: center; width: 38px; height: 38px;
-  background: var(--brand); color: #fff; border-radius: 11px;
-  box-shadow: 0 4px 12px rgba(47,125,79,.35);
+  border-radius: 9px; box-shadow: 0 4px 12px rgba(23,25,31,.28);
 }
+.brand-mark svg { display: block; }
 .brand-text { font-size: 1.02rem; letter-spacing: -.01em; }
 .brand-text em { font-style: normal; color: var(--ink-faint); font-weight: 500; }
 
